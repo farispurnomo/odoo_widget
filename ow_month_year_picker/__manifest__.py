@@ -27,8 +27,8 @@
 
     'assets'        : {
         'web.assets_backend': [
-            'month_year_picker/static/src/js/month_field.js',
-            'month_year_picker/static/src/js/year_field.js'
+            'ow_month_year_picker/static/src/js/month_field.js',
+            'ow_month_year_picker/static/src/js/year_field.js'
         ]
     }, 
 }

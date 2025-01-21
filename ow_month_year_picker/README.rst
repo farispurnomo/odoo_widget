@@ -32,11 +32,11 @@ Your XML form view definition could contain:
 
 * Month Widget
 
-  .. image:: https://raw.githubusercontent.com/farispurnomo/ow_month_year_widget/17.0/docs/ss_month.png
+  .. image:: https://raw.githubusercontent.com/farispurnomo/odoo_widget/ow_month_year_widget/17.0/docs/ss_month.png
 
 * Year Widget
 
-  .. image:: https://raw.githubusercontent.com/farispurnomo/ow_month_year_widget/17.0/docs/ss_year.png
+  .. image:: https://raw.githubusercontent.com/farispurnomo/odoo_widget/ow_month_year_widget/17.0/docs/ss_year.png
 
 Credits
 =======
