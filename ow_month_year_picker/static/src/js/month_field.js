@@ -13,7 +13,7 @@ import {
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { ensureArray } from "@web/core/utils/arrays";
-import { archParseBoolean } from "@web/views/utils";
+import { exprToBoolean } from "@web/core/utils/strings";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
 export class MonthDateField extends Component {
@@ -265,7 +265,7 @@ export const monthField = {
         minDate: options.min_date,
         placeholder: attrs.placeholder,
         required: dynamicInfo.required,
-        warnFuture: archParseBoolean(options.warn_future),
+        warnFuture: exprToBoolean(options.warn_future),
     })
 }
 
