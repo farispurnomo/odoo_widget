@@ -14,6 +14,11 @@
     'version': '18.0.0.1',
     'license': 'LGPL-3',
 	'installable': True,
+	
+	'images': [
+		'static/description/icon.png',
+		'static/description/banner.png',
+	],
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
